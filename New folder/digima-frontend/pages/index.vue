@@ -18,7 +18,8 @@ definePageMeta({
     <!-- Newly Added Products -->
     <div class="">
       <p class="text-2xl font-medium">Newly Added Products</p>
-      <div class="flex space-x-4">
+      <UiButton>Click me!</UiButton>
+  <div class="flex space-x-4">
         <NuxtLink to="/productdescription">
           <Card>
             <div class="flex flex-col space-y-4">

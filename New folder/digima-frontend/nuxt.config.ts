@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   ssr: false, // Disable server-side rendering
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
+  modules: ["shadcn-nuxt"],
   css: [
     "~/assets/css/main.css",
     "@vue-flow/core/dist/style.css",
